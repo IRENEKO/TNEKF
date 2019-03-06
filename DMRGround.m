@@ -5,7 +5,7 @@ function [TN,err] = DMRGround(oTN,eps,varargin)
 %
 % oTN          =   Tensor Network,
 %
-% eps 		   =   scalar, a given truncation tolerance
+% eps          =   scalar, a given truncation tolerance
 %
 % Reference
 % ---------

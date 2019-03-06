@@ -6,7 +6,7 @@ function c=contractab(a,b,k)
 %
 % c,a,b     =   Tensor Network,
 %
-% k 		=	vector, k(1) is mode of a and k(2) is mode of b.
+% k         =	vector, k(1) is mode of a and k(2) is mode of b.
 %
 % Reference
 % ---------

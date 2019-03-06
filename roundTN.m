@@ -6,7 +6,7 @@ function a=roundTN(a,tol,varargin)
 %
 % a         =   Tensor Network,
 %
-% tol 		=	scalar, relative approximation error.
+% tol       =	scalar, relative approximation error.
 %
 % Reference
 % ---------

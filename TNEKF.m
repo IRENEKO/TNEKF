@@ -8,16 +8,16 @@ function [thetaC_hat,sigma_thetaC] = TNEKF(thetaC_hat,sigma_thetaC,v1,y,M,fgf,si
 % sigma_thetaC_hat   =	Tensor Networks for matrix of covariance matrices
 %                       sigma_thetaC
 %
-% v1       	 		 =	Tensor Network, containing input values for MIMO
+% v1                 =	Tensor Network, containing input values for MIMO
 %				        MIMO Volterra system
 %
-% y 		         =	matrix, each row corresponds with l measured output
+% y                  =	matrix, each row corresponds with l measured output
 %
 % M                  =  Memory
 %
 % fgf                =  forgetting factor
 %
-% sigma_e			 =	matrix, variances of the Gaussian measurement noise
+% sigma_e            =	matrix, variances of the Gaussian measurement noise
 %
 % tol	             =  scalar, relative approximation error in the TN-rounding
 %
